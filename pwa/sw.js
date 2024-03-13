@@ -7,6 +7,6 @@ workbox.routing.registerRoute(
   ({ request }) => {
     const destination = request.destination === 'image'
       || destination === 'document' || destination === 'style';
-  },
+  }, 
     new workbox.strategies.CacheFirst()
 );

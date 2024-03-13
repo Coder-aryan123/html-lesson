@@ -2,7 +2,7 @@
   function openWhatsAppChat() {
     // Get the phone number from the input field
     const phoneNumber = document.getElementById('phoneNumber').value.trim();
-
+ 
     // Check if the phone number is exactly 10 digits long
     if (/^\d{10}$/.test(phoneNumber)) {
       // Format the phone number to include the country code (e.g., +91 for India)
